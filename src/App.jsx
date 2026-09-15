@@ -4,8 +4,8 @@ import './App.css';
 
 function App() {
   const [filmes, setFilmes] = useState([
-    { id: 1, titulo: 'Matrix', genero: 'Ficção Científica', ano: '1999', assistido: false },
-    { id: 2, titulo: 'Vingadores: Ultimato', genero: 'Ação', ano: '2019', assistido: true },
+    { id: 1, titulo: 'Carros', genero: 'Animação', ano: '2006', assistido: false },
+    { id: 2, titulo: 'Django Livre', genero: 'Faroeste', ano: '2012', assistido: true },
     { id: 3, titulo: 'Interestelar', genero: 'Ficção Científica', ano: '2014', assistido: true },
     { id: 4, titulo: 'Devoradores de Estrelas', genero: 'Ficção Científica', ano: '2026', assistido: true },
   ]);
